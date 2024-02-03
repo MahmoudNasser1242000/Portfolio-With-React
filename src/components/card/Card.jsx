@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from "./card.module.css";
 
-export default function Card({img, getImage}) {
+export default function Card({img, getImage, card_key}) {
     return (
-        <div className='col-md-4 col-sm-6' onClick={()=> {getImage(img)}}>
+        <div className='col-md-4 col-sm-6' onClick={()=> {getImage(img)}} key={card_key}>
             <div className='position-relative'>
                 <img src={img} className='w-100 rounded-1' alt="card image"/>
                 <div className={`bg-success d-flex justify-content-center align-items-center ${styles.card_plus}`}>
