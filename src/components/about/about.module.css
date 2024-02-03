@@ -1,0 +1,10 @@
+.about {
+    background-color: #1ABC9C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_content {
+    width: 80%;
+}

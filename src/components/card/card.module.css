@@ -1,0 +1,15 @@
+.card_plus {
+    position: absolute;
+    inset: 0;
+    --bs-bg-opacity: 90% !important;
+    opacity: 0;
+    transition: all 0.5s
+}
+.card_plus:hover {
+    opacity: 1;
+}
+
+.card_plus .plus {
+    font-size: 180px;
+    color: white;
+}

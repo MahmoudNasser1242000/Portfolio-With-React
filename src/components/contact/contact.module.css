@@ -1,0 +1,35 @@
+.form_control {
+    width: 50%;
+}
+
+.input_field {
+    /* border: 0 0 1px 0 !important; */
+    border-left: 0 !important;
+    border-right: 0 !important ;
+    border-top: 0 !important ;
+    padding: 14px 10px;
+    margin-bottom: 40px !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+.input_field:focus {
+    border-color: #198754 !important;
+}
+
+/* ========media query======== */
+@media screen and (max-width: 600px) {
+    .form_control {
+        width: 90%;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .form_control {
+        width: 70%;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .form_control {
+        width: 60%;
+    }
+}
+/* ========media query======== */
