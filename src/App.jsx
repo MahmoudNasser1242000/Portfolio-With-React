@@ -14,11 +14,9 @@ function App() {
       {path: "portfolio", element: <Portfolio/>},
       {path: "about", element: <About/>},
       {path: "contact", element: <Contact/>},
-      
+      {path:"*", element: <Error/>}
     ]
-  },
-  {path:"*", element: <Error/>}
-  ]);
+  }]);
   return <RouterProvider router={router}></RouterProvider>
 }
 
