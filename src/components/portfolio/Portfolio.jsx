@@ -22,12 +22,12 @@ export default function Portfolio() {
                     <ComponentTitle title={"PORTFOLIO COMPONENT"} color={"text-dark"} bg_star={"bg-white"} bg_line={"bg-dark"}/>
                 </div>
                 <div className='row gy-4 pb-5 pt-4'>
-                    <Card img={"./assets/images/port1.png"} getImage={getImage} card_key={nanoid()}/>
-                    <Card img={"./assets/images/port2.png"} getImage={getImage} card_key={nanoid()}/>
-                    <Card img={"./assets/images/port3.png"} getImage={getImage} card_key={nanoid()}/>
-                    <Card img={"./assets/images/port1.png"} getImage={getImage} card_key={nanoid()}/>
-                    <Card img={"./assets/images/port2.png"} getImage={getImage} card_key={nanoid()}/>
-                    <Card img={"./assets/images/port3.png"} getImage={getImage} card_key={nanoid()}/>
+                    <Card img={"./assets/images/port1.png"} getImage={getImage} key={nanoid()}/>
+                    <Card img={"./assets/images/port2.png"} getImage={getImage} key={nanoid()}/>
+                    <Card img={"./assets/images/port3.png"} getImage={getImage} key={nanoid()}/>
+                    <Card img={"./assets/images/port1.png"} getImage={getImage} key={nanoid()}/>
+                    <Card img={"./assets/images/port2.png"} getImage={getImage} key={nanoid()}/>
+                    <Card img={"./assets/images/port3.png"} getImage={getImage} key={nanoid()}/>
                 </div>
             </Container>
             <ShowCard image={card} closeShowImage={closeShowImage}/>
