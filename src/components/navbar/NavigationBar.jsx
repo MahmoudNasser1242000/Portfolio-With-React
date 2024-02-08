@@ -13,7 +13,7 @@ export default function NavigationBar() {
         <Navbar collapseOnSelect expand="lg" className={`${styles.nav_bar} py-4`} data-bs-theme="dark">
             <Container>
                 <h1>
-                    <Link to="" className={`${styles.nav_title} fw-bold`}>START FRAMEWORK</Link>
+                    <Link to="" className={`${styles.nav_title} fw-bold text-white`}>START FRAMEWORK</Link>
                 </h1>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
