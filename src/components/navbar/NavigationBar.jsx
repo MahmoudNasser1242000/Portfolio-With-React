@@ -1,7 +1,7 @@
 import React from 'react'
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import styles from "./navbar.module.css";
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 export default function NavigationBar() {
     const activeLink = ({ isActive }) => {
